@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+   <body>
+ 
+    <head>
+  <title>Kristen's Notes</title>
+</head>
+ 
+<h1>Unit 1</h1>
+<h2>World Wide Web</h2>
+<p>HTML=HyperText Markup Language</p>
+<p>HTML is the main type of document on the web</p>
+<h2>Major Pieces of the Web</h2>
+<ul>
+  <li>You</li>
+  <li>Your computer and browser</li>
+  <li>The Internet</li>
+  <li>Servers</li>
+</ul>
+<p>Your computer makes a request from servers using HTTP.<br>
+HTTP: the main protocol of the web<br>
+Servers: computers that host the files that make up the web
+Internet: the world's largest computer network<br>
+Browser: a program that runs on your computer to display files found on the web<br>
+<h2>HTML Documents</h2>
+<p>Made up of text content (what you see), markup (what it looks like) references to other documents (images and videos), links to other pages</p>
+<h2>HTML Markup</h2>
+<p>[name]contents[/name]<br>[opening tag]contents[closing tag]<br>all together called an "element"</p>
+<p>HTML is <b>reasonably straightforward</b>.<br>b tag=bold</p>
+<p><em>HTML is <b>reasonably straigtforward</b>.</em><br>em tag=italics (emphasis)</p>
+<p>You can nest tags</p>
+<h2>Computers are stupid</h2>
+<p>Computers are sensitive to typos and small mistakes can lead to huge problems.</p>
+<h2>HTML Attributes</h2>
+<p>Elements are everything within a set of opening and closing tag</p>
+<p>[tag attr="value"]contents[/tag]<br>
+  Anchor=[a]
+  <a href="wwww.reddit.com"></a><br>
+  This website is <a href="http://www.udacity.com">my favorite</a>.</p>
+</p>
+<p>[img] is the image tag<br>
+  <img src="http://www.udacity.com/cs253x/hipmunk.png" alt="text">
+    <br>VOID tag: a tag that has no content, doesn't need a closing tag (br is also a void tag)
+</p>
+<p>Hello everyone!<br>We're using two lines now!</p>
+<p>Hello everyone!</p><p>We're using two lines now!</p>
+<h2>Inline/Block</h2>
+<p>br tag is inline<br>p is block</p>
+<p>p tag creates an actual box around the text within the tag<br>Inline elements are just text</p>
+<p>Inline elements: b, em, img, span, strong, a, br<br>
+  Block elements: p, div, form
+</p>
+<h2>Span/Div</h2>
+<p>Span is inline, Div is block<br>These do nothing except contain their content</p>
+<h2>HTML Documents</h2>
+<p>!doctype html: what kind of document type<br>
+html surrounds the document<br>
+head tag contains title, javascript, css, metadata<br>
+title holds the title<br>
+body contains the content of the webpage<br>
+    
+    
+    
+    
+    
+  </body>
+</html>
+ 
